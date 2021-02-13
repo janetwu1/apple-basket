@@ -1,0 +1,12 @@
+{
+    "apps": [
+        {
+            "name": "apple-basket",
+            "exec cwd" : "/root/apple-basket",      
+            "script path": "/usr/local/bin/npm",
+            "error_file": "/var/log/nodejs/pm2-err.log",
+            "out_file": "/var/log/nodejs/pm2-out.log",
+            "log_date_format": "YYYY-MM-DD HH:mm Z"
+        }
+    ]
+}
